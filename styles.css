@@ -59,17 +59,17 @@ button:hover {
 .image-gallery {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Allows images to wrap to the next line */
-    gap: 10px; /* Adds consistent spacing between images */
+    flex-wrap: wrap; 
+    gap: 10px; 
 }
 
 .image-gallery img {
-    width: 100%; /* Makes images responsive */
-    max-width: 300px; /* Sets a maximum width for larger screens */
-    height: auto; /* Maintains aspect ratio */
-    border-radius: 8px; /* Optional: adds rounded corners */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: adds a shadow effect */
-    object-fit: cover; /* Ensures the image covers the container without stretching */
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+    object-fit: cover; 
 }
 
 
@@ -77,14 +77,14 @@ button:hover {
 /* Media Queries */
 @media (max-width: 768px) {
     .image-gallery img {
-        max-width: 45%; /* Adjusts width for tablets */
+        max-width: 45%;
     }
 }
 
 @media (max-width: 480px) {
     .image-gallery img {
-        max-width: 100%; /* Adjusts width for smaller screens */
-        margin: 0 0 10px; /* Adjusts margin to avoid extra spacing */
+        max-width: 100%; 
+        margin: 0 0 10px; 
     }
 }
 
@@ -102,10 +102,10 @@ button:hover {
 .profile-pic {
     width: 50px;
     height: 50px;
-    border-radius: 50%; /* Makes the image circular */
-    margin-right: 15px; /* Adds space between the image and the review text */
-    object-fit: cover; /* Ensures the image fills the circle without distortion */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
+    border-radius: 50%; 
+    margin-right: 15px; 
+    object-fit: cover; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
 }
 
 blockquote {
@@ -114,7 +114,7 @@ blockquote {
     margin: 0;
 }
 
-/* Responsive adjustment for customer reviews */
+
 @media (max-width: 480px) {
     .profile-pic {
         width: 40px;
